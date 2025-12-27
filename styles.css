@@ -660,6 +660,7 @@ footer {
     
   header .menu-icon {
     display: inline-block;
+    padding-bottom: 95px;
   }
 
   header .menu {
@@ -768,5 +769,6 @@ footer {
 
 
 }
+
 
 
