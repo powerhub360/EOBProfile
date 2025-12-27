@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Your Page Title</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <!-- Meta tags -->
+    <meta name="description" content="Page description here" />
+    <meta name="author" content="Your Name" />
+  </head>
+
+  <body>
+    <header>
+      <a href="#" class="logo">
+        <img src="image/Logo.svg" alt="Site Logo" />
+      </a>
+
+      <!-- checkbox FIRST -->
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+
+      <label class="menu-icon" for="menu-btn">
+        <span class="nav-icon"></span>
+      </label>
+
+      <ul class="menu">
+        <li><a href="/">Home</a></li>
+        <li><a href="#section-3">About</a></li>
+        <li><a href="#section-2">Books</a></li>
+        <li><a href="#section-4">Contact</a></li>
+        <li><a href="#">Research</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <section id="hero">
+        <div class="hero-section" id="hero-text">
+          <img src="image/Make it count.svg" />
+          <img src="image/Productivity matters.svg" />
+          <img src="image/Dr. Bamiduro.svg" />
+          <div class="spacer"></div>
+          <a href="#" class="btn" id="btn-partner"
+            >Partner With Dr. BAMIDURO
+          </a>
+        </div>
+
+        <div class="hero-section">
+          <img src="image/hero-image.png" />
+          <div class="spacer"></div>
+        </div>
+      </section>
+
+      <section id="section-2">
+        <a
+          href="https://www.amazon.com/stores/author/B07L2GMF9D/allbooks?ccs_id=43bbb880-22d7-4386-a434-53a55ee69759"
+          target="_blank"
+          class="btn"
+          id="btn-buy"
+          >See my books
+        </a>
+      </section>
+
+      <section class="wrapper">
+        <div id="section-3">
+          <h1>Brief Bio</h1>
+
+          <div class="bio-container">
+            <div class="bio-card">
+              <img
+                src="image/portrait-about.png"
+                alt="Illustration"
+                style="grid-area: item1"
+              />
+            </div>
+
+            <div class="text-section">
+              <h2>Dr. Olugbenga Emmanuel Bamiduro</h2>
+
+              <p>
+                Dr. Bamiduro is an alumnus of both the University of Lagos,
+                Akoka, Lagos, and the University of Abuja. With over three
+                decades of experience, including distinguished service in the
+                Federal Government of Nigeria at the National Productivity
+                Centre, he has established himself as a committed productivity
+                promoter and change agent.
+              </p>
+
+              <p>
+                His passion, drive, and expertise reflect his extensive career
+                as a productivity consultant, management consultant, researcher,
+                author, solution provider, public administrator, and project
+                manager. Dr. Bamiduro’s areas of specialization span both basic
+                and advanced productivity improvement tools and techniques,
+                including benchmarking, change management, quality circles,
+                strategic planning, and the seven quality tools, among many
+                others.
+              </p>
+
+              <p>
+                Over the past thirty years, he has successfully planned,
+                organized, and managed quality improvement programmes for
+                numerous organizations, consistently delivering inspiring
+                outcomes and earning strong commendations from client
+                institutions.
+              </p>
+
+              <a href="#" class="btn" id="btn-3"> Partner With Dr. BAMIDURO </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="section-4">
+        <h4>Stay in touch with Dr. Bamiduro</h4>
+
+        <form action="#" method="POST">
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+          <a href="#" class="btn" id="btn-subscribe"
+            >Subscribe to my Newsletter
+          </a>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2025 Dr. Gbenga Bamiduro. All rights reserved. Designed by
+        <a>
+          <i><b>Power Project LLC</b></i> </a
+        >.
+      </p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
