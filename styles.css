@@ -648,12 +648,13 @@ footer {
 @media (max-width: 480px) {
   header {
     justify-content: space-between;
+    align-items:center;
     position: fixed;
     width: 100%;
   }
 
   .logo img{
-      width:75%;
+      width:65%;
       height:auto;
   }
     
@@ -767,4 +768,5 @@ footer {
 
 
 }
+
 
