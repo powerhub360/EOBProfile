@@ -652,6 +652,11 @@ footer {
     width: 100%;
   }
 
+  .logo img{
+      width:75%;
+      height:auto;
+  }
+    
   header .menu-icon {
     display: inline-block;
   }
@@ -762,3 +767,4 @@ footer {
 
 
 }
+
